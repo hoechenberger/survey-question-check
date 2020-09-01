@@ -34,6 +34,10 @@ Please not that you need to edit **both** script files, as they are
 independent of each other.
 
 ## Running the checks
+The scripts are located inside the `scripts` folder (you should know this by
+now, because you should have edited them already. If you didn't, please read
+the above instructions again, carefully.)
+
 There are two scripts that perform the checks, `01_check_translations_reduces.py` and `02_check_translations_full.py`. The names should be quite obvious 😅
 You should always start with the first script and only if no more error
 messages are produced move on to the second.
