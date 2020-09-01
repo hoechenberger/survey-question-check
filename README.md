@@ -30,7 +30,7 @@ line to read:
 ```
 LANGUAGES = ('en', 'de', 'nl', 'it', 'hu')
 ```
-Please not that you need to edit **both** script files, as they are
+Please note that you need to edit **both** script files, as they are
 independent of each other.
 
 ## Running the checks
