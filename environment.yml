@@ -1,0 +1,9 @@
+name: survey-question-check
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - json_tricks
+  - markdown
+  - pandas
+  - xlrd
