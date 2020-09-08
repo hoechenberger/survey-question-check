@@ -16,7 +16,8 @@ import pathlib
 LANGUAGES = ('en', 'de', 'nl', 'it')
 infile = pathlib.Path(__file__).parent.parent / 'data' / 'Question Layout.xlsx'
 countries_path = pathlib.Path(__file__).parent.parent / 'data' / 'countries.json'
-countries = json_tricks.load(str(countries_path))
+with open(countries_path, 'r') as f:
+    countries = json_tricks.load(f)
 
 
 def read_data(infile):
