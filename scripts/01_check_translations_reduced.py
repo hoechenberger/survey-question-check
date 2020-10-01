@@ -11,9 +11,10 @@ import pandas as pd
 import pathlib
 
 
-LANGUAGES = ('en', 'de', 'nl', 'it', 'ru')
+LANGUAGES = ('en', 'de', 'nl', 'it', 'ru', 'ja')
 infile = pathlib.Path(__file__).parent.parent / 'data' / 'Question Layout.xlsx'
-countries_path = pathlib.Path(__file__).parent.parent / 'data' / 'countries.json'
+countries_path = (pathlib.Path(__file__).parent.parent / 'data' /
+                  'countries.json')
 with open(countries_path, encoding='utf8') as f:
     countries = json_tricks.load(f)
 
