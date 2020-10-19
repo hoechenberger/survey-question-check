@@ -86,7 +86,7 @@ def extract_question_data(q_data):
         q_choices = []
     else:
         choices = {}
-        # print(q_title)
+        print(q_title)
         for lang in LANGUAGES:
             choices[lang] = q_data[f'choices_{lang}'].iloc[0]
             choices[lang] = choices[lang].split(';')
