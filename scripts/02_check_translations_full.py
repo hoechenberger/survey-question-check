@@ -13,7 +13,7 @@ import numpy as np
 import pathlib
 
 
-LANGUAGES = ('en', 'de', 'nl', 'it', 'ru', 'ja')
+LANGUAGES = ('en', 'de', 'nl', 'it', 'ru', 'ja', 'es')
 infile = pathlib.Path(__file__).parent.parent / 'data' / 'Question Layout.xlsx'
 countries_path = (pathlib.Path(__file__).parent.parent / 'data' /
                   'countries.json')
